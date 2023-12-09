@@ -8,9 +8,7 @@ import { useProductsContext } from "../../hooks/useProductsContext";
 import React, { useEffect, useState } from "react";
 import "../SalePage/Sale.css";
 
-
 const EnergyStorage = () => {
-  
   const [data, setData] = useState(null);
 
   useEffect(() => {
@@ -26,8 +24,6 @@ const EnergyStorage = () => {
     fetchProducts();
     console.log("useEffect");
   }, []);
-
-
 
   return (
     <div className="category-page">

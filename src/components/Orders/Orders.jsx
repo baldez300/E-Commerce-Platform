@@ -7,7 +7,8 @@ import useProducts from "../../hooks/useProducts";
 import Order from "./Order";
 import { CiReceipt } from "react-icons/ci";
 import { IoIosClose } from "react-icons/io";
-import CircularProgress from "@mui/joy/CircularProgress";
+// import CircularProgress from "@mui/joy/CircularProgress";
+import CircularProgress from "@mui/material/CircularProgress";
 import "./Orders.css";
 
 const Orders = () => {
@@ -81,7 +82,9 @@ const Orders = () => {
                       {order.delivered ? "Yes" : "No"}
                     </span>
                   </h2>
-                  <h2 className="delivered-text">Total: {totalPrice.toFixed(2)}$</h2>
+                  <h2 className="delivered-text">
+                    Total: {totalPrice.toFixed(2)}$
+                  </h2>
                   <button
                     className="order-delete-btn"
                     onClick={async () => {
