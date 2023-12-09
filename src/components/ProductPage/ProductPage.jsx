@@ -38,7 +38,7 @@ const ProductPage = () => {
       <div className="product-details">
         <h1 className="product-title">{productDetails.productName}</h1>
         <p className="product-description">{productDetails.description}</p>
-        <p className="product-page-price">{productDetails.cost}</p>
+        <p className="product-page-price">{productDetails.price}$ </p>
         <div className="quantity-section">
           <label htmlFor="quantity">Quantity:</label>
           <input
