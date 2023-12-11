@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { IoTrashOutline } from "react-icons/io5";
 
-const cartItem = ({ _id, img, productName, description, price, removeFromCart }) => {
+const cartItem = ({ _id, img, productName, description, price, removeFromCart, quantity }) => {
   const props = { _id, img, productName, description, price };
   return (
     <Link
@@ -17,7 +17,7 @@ const cartItem = ({ _id, img, productName, description, price, removeFromCart })
             <p className="cart-item-description">{description}</p>
             <div className="flex space-between vertically-center">
               <p>
-                <strong>${price}</strong>
+                <p style={{fontSize: "14px"}}>{price}$ * {quantity}  <span style={{fontSize: "20px"}}><strong>${(price*quantity).toFixed(2)}</strong></span></p>
               </p>
               <IoTrashOutline
                 size={20}
