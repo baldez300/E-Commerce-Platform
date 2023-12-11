@@ -5,6 +5,8 @@ import { signal} from "@preact/signals-react"
 
 import React, { useEffect, useState } from "react";
 
+const EnergyStorage = () => {
+
 const idList = signal([]);
 
 const EnergyStorage = () => {
@@ -66,13 +68,6 @@ const EnergyStorage = () => {
     
     // console.log("useEffect");
   }, [idList.value]);
-
- 
-  // console.log("data", data);
-  // console.log("id List", idList.value);
-  // console.log("filtered data", filteredData);
-  // console.log("filtered data length", filteredData.length
-
 
   return (
     <div className="category-page">

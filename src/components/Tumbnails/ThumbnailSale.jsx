@@ -20,6 +20,10 @@ function ThumbnailSale(props) {
       );
   }
 
+  const calculateDiscountedPrice = (price, discount) => {
+    return (price - price * discount).toFixed(0);
+  };
+
   return (
     <div className="product" key={_id}>
       <Link
@@ -43,47 +47,45 @@ function ThumbnailSale(props) {
             }}
           />
         </div>
-            <img className="img product-img" src={img} alt="product" />
-            <div className="productName text-wrapper">
-              <strong>{productName}</strong>
-            </div>
-            <div className="text-wrapper-3 manufacturer">
-              <span className="manufacturer">Manufacturer: </span>
-              <strong>{manufacturer}</strong>
-            </div>
-            <div className="text-wrapper-3 country">
-              <span className="country">Country of origin: </span>
-              <strong>{country}</strong>
-            </div>
-       </Link>
-        <div className="ofer">
-          
-            <div className="price">
-              $ {(price - price * discount).toFixed(0)}{" "}
-              <span className="old-price">$ {price.toFixed(0)} </span>
-            </div>
-            <div className="discount">
-              <div className="discount-sub">
-                <strong>-{discount * 100}</strong> %
-              </div>
-            </div>
-            <button
-            className="cart-btn"
-            onClick={(e) => {
-              e.preventDefault();
-              handleCartBtnClicked(props);
-            }}
-            style={
-              currentUser.value && ifInCart(_id)
-                ? { backgroundColor: "var(--mainthird)" }
-                : {}
-            }
-            id={`cart-${_id}`}
-          >
-            {" "}
-          </button>
+        <img className="img product-img" src={img} alt="product" />
+        <div className="productName text-wrapper">
+          <strong>{productName}</strong>
         </div>
-      
+        <div className="text-wrapper-3 manufacturer">
+          <span className="manufacturer">Manufacturer: </span>
+          <strong>{manufacturer}</strong>
+        </div>
+        <div className="text-wrapper-3 country">
+          <span className="country">Country of origin: </span>
+          <strong>{country}</strong>
+        </div>
+      </Link>
+      <div className="ofer">
+        <div className="price">
+          $ {calculateDiscountedPrice(price, discount)}{" "}
+          <span className="old-price">$ {price.toFixed(0)} </span>
+        </div>
+        <div className="discount">
+          <div className="discount-sub">
+            <strong>-{discount * 100}</strong> %
+          </div>
+        </div>
+        <button
+          className="cart-btn"
+          onClick={(e) => {
+            e.preventDefault();
+            handleCartBtnClicked(props);
+          }}
+          style={
+            currentUser.value && ifInCart(_id)
+              ? { backgroundColor: "var(--mainthird)" }
+              : {}
+          }
+          id={`cart-${_id}`}
+        >
+          {" "}
+        </button>
+      </div>
     </div>
   );
 }
