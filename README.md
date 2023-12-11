@@ -137,3 +137,8 @@
             ```javascript
             MONGO_URI = mongodb+srv://vladimirpiniazhin:cWHaPUvcw2RekFQm@cluster0.xrdatkq.mongodb.net/test
             ```
+
+### install dependency modal for Payment Method
+  ```javascript
+  npm install react-modal
+  ```

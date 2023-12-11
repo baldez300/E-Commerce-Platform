@@ -4,48 +4,64 @@ import img3 from "../images/popular/img3.png";
 import img4 from "../images/popular/img4.png";
 import img5 from "../images/popular/img5.png";
 import img6 from "../images/popular/img6.png";
-import img7 from "../images/popular/img7.png";
-import img8 from "../images/popular/img8.png";
+import img7 from "../images/popular/batteries.jpeg";
+import img8 from "../images/popular/termal.png";
 
 const popular = [
     {
     id: 1,
+    category: 2,
+    subcategory: 1,
     description: 'Monocrystalline Solar Panels',
     img: img1,
 },
 {
     id: 2,
+    category: 2,
+    subcategory: 2,
     description: 'Polycrystalline Solar Panels',
     img: img2,
 },
 {
     id: 3,
+    category: 2,
+    subcategory: 3,
     description: 'Thin-Film Solar Panels',
     img: img3,
 },
 {
     id: 4,
-    description: 'Level 1 Chargers (120V)',
+    category: 1,
+    subcategory: 1,
+    description: 'Home Charging Stations',
     img: img4,
 },
 {
     id: 5,
-    description: 'Level 2 Chargers (240V)',
+    category: 1,
+    subcategory: 2,
+    description: 'Public Charging Stations',
     img: img5,
 },
 {
     id: 6,
-    description: 'Home Charging Stations',
+    category: 1,
+    subcategory: 3,
+    description: 'Super Charging Stations',
     img: img6,
 },
 {
     id: 7,
-    description: 'Portable Chargers',
+    category: 3,
+    subcategory: 1,
+    description: 'Batteries',
     img: img7,
 },
 {
     id: 8,
-    description: 'Dishwashers',
+    category: 3,
+    subcategory: 3,
+    description: 'Thermal storage',
     img: img8,
 },
 

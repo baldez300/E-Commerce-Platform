@@ -2,777 +2,127 @@
 POST http://localhost:4000/products HTTP/1.1
 Content-Type: application/json
 
-
-[
-    {
-
-    "category": 1,
-    "subcategory": 1,
-    "productName": "Charger 1",
-    "manufacturer": "Tesla",
-    "country": "China",
-    "price": 200,
-    "description": "8A-32A 3KW 7KW Portable ev charger for ev electric car battery mobile charging station",
-    "img": "../images/products/Charger.jpeg",
-    "discount": 0
-  },
+  [
   {
-
     "category": 1,
-    "subcategory": 1,
-    "productName": "Charger 2",
-    "manufacturer": "Ching Chong",
-    "country": "China",
-    "price": 200,
-    "description": "8A-32A 3KW 7KW Portable ev charger for ev electric car battery mobile charging station",
-    "img": "../images/products/Charger.jpeg",
-    "discount": 0.30
-  },
-  {
-
-    "category": 1,
-    "subcategory": 1,
-    "productName": "Charger 3",
-    "manufacturer": "Ching Chong",
-    "country": "China",
-    "price": 300,
-    "description": "8A-32A 3KW 7KW Portable ev charger for ev electric car battery mobile charging station",
-    "img": "../images/products/Charger.jpeg",
-    "discount": 0
-  },
-  {
-
-    "category": 1,
-    "subcategory": 1,
-    "productName": "Charger 4",
-    "manufacturer": "Ching Chong",
-    "country": "China",
-    "price": 400,
-    "description": "8A-32A 3KW 7KW Portable ev charger for ev electric car battery mobile charging station",
-    "img": "../images/products/Charger.jpeg",
-    "discount": 0.9
-  },
-  {
-
-    "category": 1,
-    "subcategory": 1,
-    "productName": "Charger 5",
-    "manufacturer": "Ching Chong",
-    "country": "China",
-    "price": 400,
-    "description": "8A-32A 3KW 7KW Portable ev charger for ev electric car battery mobile charging station",
-    "img": "../images/products/Charger.jpeg",
-    "discount": 0
-  },
-  {
-
-    "category": 1,
-    "subcategory": 1,
-    "productName": "Charger 6",
-    "manufacturer": "Ching Chong",
-    "country": "China",
-    "price": 400,
-    "description": "8A-32A 3KW 7KW Portable ev charger for ev electric car battery mobile charging station",
-    "img": "../images/products/Charger.jpeg",
-    "discount": 0.9
-  },
-  {
-
-    "category": 1,
-    "subcategory": 1,
-    "productName": "Charger 7",
-    "manufacturer": "Ching Chong",
-    "country": "China",
-    "price": 400,
-    "description": "8A-32A 3KW 7KW Portable ev charger for ev electric car battery mobile charging station",
-    "img": "../images/products/Charger.jpeg",
-    "discount": 0
-  },
-  {
-
-    "category": 1,
-    "subcategory": 1,
-    "productName": "Charger 8",
-    "manufacturer": "Tesla",
-    "country": "China",
-    "price": 200,
-    "description": "8A-32A 3KW 7KW Portable ev charger for ev electric car battery mobile charging station",
-    "img": "../images/products/Charger.jpeg",
-    "discount": 0.50
-  },
-  {
-
-    "category": 1,
-    "subcategory": 1,
-    "productName": "Charger 9",
-    "manufacturer": "Ching Chong",
-    "country": "China",
-    "price": 200,
-    "description": "8A-32A 3KW 7KW Portable ev charger for ev electric car battery mobile charging station",
-    "img": "../images/products/Charger.jpeg",
-    "discount": 0.30
-  },
-  {
-
-    "category": 1,
-    "subcategory": 1,
-    "productName": "Charger 10",
-    "manufacturer": "Ching Chong",
-    "country": "China",
-    "price": 300,
-    "description": "8A-32A 3KW 7KW Portable ev charger for ev electric car battery mobile charging station",
-    "img": "../images/products/Charger.jpeg",
-    "discount": 0.40
-  },
-  {
-
-    "category": 1,
-    "subcategory": 1,
-    "productName": "Charger 11",
-    "manufacturer": "Ching Chong",
-    "country": "China",
-    "price": 400,
-    "description": "8A-32A 3KW 7KW Portable ev charger for ev electric car battery mobile charging station",
-    "img": "../images/products/Charger.jpeg",
-    "discount": 0.9
-  },
-  {
-
-    "category": 1,
-    "subcategory": 1,
-    "productName": "Charger 12",
-    "manufacturer": "Ching Chong",
-    "country": "China",
-    "price": 400,
-    "description": "8A-32A 3KW 7KW Portable ev charger for ev electric car battery mobile charging station",
-    "img": "../images/products/Charger.jpeg",
-    "discount": 0.9
-  },
-  {
-
-    "category": 1,
-    "subcategory": 1,
-    "productName": "Charger 13",
-    "manufacturer": "Ching Chong",
-    "country": "China",
-    "price": 400,
-    "description": "8A-32A 3KW 7KW Portable ev charger for ev electric car battery mobile charging station",
-    "img": "../images/products/Charger.jpeg",
-    "discount": 0.9
-  },
-  {
-
-    "category": 1,
-    "subcategory": 1,
-    "productName": "Charger 14",
-    "manufacturer": "Ching Chong",
-    "country": "China",
-    "price": 400,
-    "description": "8A-32A 3KW 7KW Portable ev charger for ev electric car battery mobile charging station",
-    "img": "../images/products/Charger.jpeg",
-    "discount": 0.9
-  },
-  {
-
-    "category": 1,
-    "subcategory": 1,
-    "productName": "Charger 15",
-    "manufacturer": "Ching Chong",
-    "country": "China",
-    "price": 400,
-    "description": "8A-32A 3KW 7KW Portable ev charger for ev electric car battery mobile charging station",
-    "img": "../images/products/Charger.jpeg",
-    "discount": 0.9
-  },
-  {
-
-    "category": 2,
-    "subcategory": 1,
-    "productName": "Panel 1",
+    "subcategory": 2,
+    "productName": "Public charge 1",
     "manufacturer": "Solar Power Inc.",
     "country": "China",
-    "price": 299,
+    "price": 199,
     "description": "High-efficiency solar panel for residential and commercial use.",
-    "img": "../images/products/solar-panel-1.jpeg",
+    "img": "../images/products/public-charging.png",
     "discount": 0
   },
   {
-
-    "category": 2,
-    "subcategory": 1,
-    "productName": "Panel 2",
+    "category": 1,
+    "subcategory": 2,
+    "productName": "Public charge 2",
     "manufacturer": "Sunergy",
     "country": "USA",
     "price": 350,
     "description": "Premium solar panel with advanced photovoltaic technology.",
-    "img": "../images/products/solar-panel-1.jpeg",
+    "img": "../images/products/public-charging.png",
     "discount": 0.20
   },
   {
 
-    "category": 2,
-    "subcategory": 1,
-    "productName": "Panel 3",
+    "category": 1,
+    "subcategory": 2,
+    "productName": "Public charge 3",
     "manufacturer": "GreenEco",
     "country": "Germany",
     "price": 400,
     "description": "Eco-friendly solar panel for sustainable energy production.",
-    "img": "../images/products/solar-panel-1.jpeg",
+    "img": "../images/products/public-charging.png",
     "discount": 0.10
   },
   {
-
-    "category": 2,
-    "subcategory": 1,
-    "productName": "Panel 4",
+    "category": 1,
+    "subcategory": 2,
+    "productName": "Public charge 4",
     "manufacturer": "Solar Power Inc.",
     "country": "China",
     "price": 299,
     "description": "High-efficiency solar panel for residential and commercial use.",
-    "img": "../images/products/solar-panel-1.jpeg",
+    "img": "../images/products/public-charging.png",
     "discount": 0.15
   },
   {
-
-    "category": 2,
-    "subcategory": 1,
-    "productName": "Panel 5",
+    "category": 1,
+    "subcategory": 2,
+    "productName": "Public charge 5",
     "manufacturer": "Sunergy",
     "country": "USA",
-    "price": 350,
+    "price": 130,
     "description": "Premium solar panel with advanced photovoltaic technology.",
-    "img": "../images/products/solar-panel-1.jpeg",
+    "img": "../images/products/public-charging.png",
     "discount": 0.25
   },
   {
-
-    "category": 2,
-    "subcategory": 1,
-    "productName": "Panel 6",
+    "category": 1,
+    "subcategory": 2,
+    "productName": "Public charge 6",
     "manufacturer": "GreenEco",
     "country": "Germany",
     "price": 400,
     "description": "Eco-friendly solar panel for sustainable energy production.",
-    "img": "../images/products/solar-panel-1.jpeg",
-    "discount": 0.30
+    "img": "../images/products/public-charging.png",
+    "discount": 0
   },
   {
-
-    "category": 2,
-    "subcategory": 1,
-    "productName": "Panel 7",
+    "category": 1,
+    "subcategory": 3,
+    "productName": "Super charging 7",
     "manufacturer": "Solar Power Inc.",
     "country": "China",
-    "price": 299,
+    "price": 290,
     "description": "High-efficiency solar panel for residential and commercial use.",
-    "img": "../images/products/solar-panel-1.jpeg",
-    "discount": 0.10
+    "img": "../images/products/super-charge.jpg",
+    "discount": 0
   },
   {
-
-    "category": 2,
-    "subcategory": 1,
-    "productName": "Panel 8",
+    "category": 1,
+    "subcategory": 3,
+    "productName": "Super charging 8",
     "manufacturer": "Sunergy",
     "country": "USA",
-    "price": 350,
+    "price": 3500,
     "description": "Premium solar panel with advanced photovoltaic technology.",
-    "img": "../images/products/solar-panel-1.jpeg",
+    "img": "../images/products/super-charge.jpg",
     "discount": 0.20
   },
   {
-
-    "category": 2,
-    "subcategory": 1,
-    "productName": "Panel 9",
+    "category": 1,
+    "subcategory": 3,
+    "productName": "Super charging 9",
     "manufacturer": "GreenEco",
     "country": "Germany",
-    "price": 400,
+    "price": 4000,
     "description": "Eco-friendly solar panel for sustainable energy production.",
-    "img": "../images/products/solar-panel-1.jpeg",
+    "img": "../images/products/super-charge.jpg",
     "discount": 0.15
   },
   {
-
-    "category": 2,
-    "subcategory": 1,
-    "productName": "Panel 10",
+    "category": 1,
+    "subcategory": 3,
+    "productName": "Super charging 10",
     "manufacturer": "Solar Power Inc.",
     "country": "China",
-    "price": 299,
+    "price": 2990,
     "description": "High-efficiency solar panel for residential and commercial use.",
-    "img": "../images/products/solar-panel-1.jpeg",
-    "discount": 0.25
-  },
-  {
-
-    "category": 2,
-    "subcategory": 1,
-    "productName": "Panel 11",
-    "manufacturer": "Sunergy",
-    "country": "USA",
-    "price": 350,
-    "description": "Premium solar panel with advanced photovoltaic technology.",
-    "img": "../images/products/solar-panel-1.jpeg",
-    "discount": 0.30
-  },
-  {
-
-    "category": 2,
-    "subcategory": 1,
-    "productName": "Panel 12",
-    "manufacturer": "GreenEco",
-    "country": "Germany",
-    "price": 400,
-    "description": "Eco-friendly solar panel for sustainable energy production.",
-    "img": "../images/products/solar-panel-1.jpeg",
-    "discount": 0.10
-  },
-  {
-
-    "category": 2,
-    "subcategory": 1,
-    "productName": "Panel 13",
-    "manufacturer": "Solar Power Inc.",
-    "country": "China",
-    "price": 299,
-    "description": "High-efficiency solar panel for residential and commercial use.",
-    "img": "../images/products/solar-panel-1.jpeg",
-    "discount": 0.15
-  },
-  {
-
-    "category": 2,
-    "subcategory": 1,
-    "productName": "Panel 14",
-    "manufacturer": "Sunergy",
-    "country": "USA",
-    "price": 350,
-    "description": "Premium solar panel with advanced photovoltaic technology.",
-    "img": "../images/products/solar-panel-1.jpeg",
-    "discount": 0.20
-  },
-  {
-
-    "category": 2,
-    "subcategory": 1,
-    "productName": "Panel 15",
-    "manufacturer": "GreenEco",
-    "country": "Germany",
-    "price": 400,
-    "description": "Eco-friendly solar panel for sustainable energy production.",
-    "img": "../images/products/solar-panel-1.jpeg",
-    "discount": 0.25
-  },
-  {
-
-    "category": 3,
-    "subcategory": 1,
-    "productName": "Inverter 1",
-    "manufacturer": "EcoInnovate",
-    "country": "Australia",
-    "price": 1299,
-    "description": "Upgrade to the GreenPower Ultra 2000, an energy-efficient appliance designed for sustainable living. With a capacity of 15.2 kWh, it is suitable for powering energy-efficient refrigerators and other household appliances.",
-    "img": "../images/products/home-battery-pack.jpeg",
-    "discount": 0
-  },
-  {
-
-    "category": 3,
-    "subcategory": 1,
-    "productName": "Battery pack 7",
-    "manufacturer": "ABB",
-    "country": "Finland",
-    "price": 533,
-    "description": "Powerporter 11.0 Energy Capacity: 19.6kWh",
-    "img": "../images/products/home-battery-pack.jpeg",
-    "discount": 0
-  },
-  {
-
-    "category": 3,
-    "subcategory": 1,
-    "productName": "Battery pack 8",
-    "manufacturer": "ABB",
-    "country": "Finland",
-    "price": 1033,
-    "description": "Powerporter 11.0 Energy Capacity: 22.6kWh",
-    "img": "../images/products/home-battery-pack.jpeg",
-    "discount": 0
-  },
-  {
-
-    "category": 4,
-    "subcategory": 1,
-    "productName": "Energy-efficient appliance 1",
-    "manufacturer": "EcoTech",
-    "country": "Germany",
-    "price": 899,
-    "description": "Energy-efficient appliance suitable for refrigeration needs. EcoTech presents the Energy Storage Unit 2000 with a capacity of 23.5 kWh, ideal for powering eco-friendly refrigerators.",
-    "img": "../images/products/energy-efficient-products.jpg",
-    "discount": 0
-  },
-  {
-
-    "category": 4,
-    "subcategory": 1,
-    "productName": "Energy-efficient appliance 2",
-    "manufacturer": "GreenEnergy",
-    "country": "Sweden",
-    "price": 1299,
-    "description": "Upgrade your entertainment setup with this energy-efficient appliance. The PowerCell XR-500, manufactured by GreenEnergy, offers high-capacity energy storage of 25.8 kWh, perfect for powering modern televisions.",
-    "img": "../images/products/energy-efficient-products.jpg",
-    "discount": 0
-  },
-  {
-
-    "category": 4,
-    "subcategory": 1,
-    "productName": "Energy-efficient appliance 3",
-    "manufacturer": "SustainableTech",
-    "country": "United States",
-    "price": 1499,
-    "description": "SustainableTech introduces the EcoPower Pro 3000, an energy-efficient appliance designed for household needs. With a storage capacity of 28.4 kWh, it is suitable for powering energy-efficient refrigerators.",
-    "img": "../images/products/energy-efficient-products.jpg",
-    "discount": 0
-  },
-  {
-
-    "category": 4,
-    "subcategory": 1,
-    "productName": "Energy-efficient appliance 4",
-    "manufacturer": "RenewableCo",
-    "country": "Canada",
-    "price": 1099,
-    "description": "RenewableCo presents the RenewaCharge XE-1200, an energy-efficient solution for powering appliances like pumps. With a storage capacity of 26.5 kWh, it ensures reliable and eco-friendly pump operation.",
-    "img": "../images/products/energy-efficient-products.jpg",
-    "discount": 0
-  },
-  {
-
-    "category": 4,
-    "subcategory": 1,
-    "productName": "Energy-efficient appliance 5",
-    "manufacturer": "EcoInnovate",
-    "country": "Australia",
-    "price": 1699,
-    "description": "Upgrade to the GreenPower Ultra 4000, an energy-efficient appliance designed for sustainable living. With a capacity of 30.2 kWh, it is suitable for powering energy-efficient refrigerators and other household appliances.",
-    "img": "../images/products/energy-efficient-products.jpg",
-    "discount": 0
-  },
-  {
-
-    "category": 5,
-    "subcategory": 1,
-    "productName": "Wind turbine 1",
-    "manufacturer": "ABB",
-    "country": "Finland",
-    "price": 133,
-    "description": "Powerporter 11.0 Energy Capacity: 11.6kWh",
-    "img": "../images/products/wind-turbine.jpg",
-    "discount": 0.3
-  },
-  {
-
-    "category": 5,
-    "subcategory": 1,
-    "productName": "Wind turbine 2",
-    "manufacturer": "ABB",
-    "country": "Finland",
-    "price": 233,
-    "description": "Powerporter 11.0 Energy Capacity: 13.6kWh",
-    "img": "../images/products/wind-turbine.jpg",
-    "discount": 0
-  },
-  {
-
-    "category": 5,
-    "subcategory": 1,
-    "productName": "Wind turbine 3",
-    "manufacturer": "ABB",
-    "country": "Finland",
-    "price": 533,
-    "description": "Powerporter 11.0 Energy Capacity: 14.6kWh",
-    "img": "../images/products/wind-turbine.jpg",
-    "discount": 0
-  },
-  {
-
-    "category": 5,
-    "subcategory": 1,
-    "productName": "Wind turbine 4",
-    "manufacturer": "ABB",
-    "country": "Finland",
-    "price": 433,
-    "description": "Powerporter 11.0 Energy Capacity: 16.6kWh",
-    "img": "../images/products/wind-turbine.jpg",
-    "discount": 0.5
-  },
-  {
-
-    "category": 5,
-    "subcategory": 1,
-    "productName": "Wind turbine 5",
-    "manufacturer": "ABB",
-    "country": "Finland",
-    "price": 733,
-    "description": "Powerporter 11.0 Energy Capacity: 20.6kWh",
-    "img": "../images/products/wind-turbine.jpg",
+    "img": "../images/products/super-charge.jpg",
     "discount": 0.1
   },
   {
-
-    "category": 5,
-    "subcategory": 1,
-    "productName": "Wind turbine 6",
-    "manufacturer": "ABB",
-    "country": "Finland",
-    "price": 733,
-    "description": "Powerporter 11.0 Energy Capacity: 19.6kWh",
-    "img": "../images/products/wind-turbine.jpg",
-    "discount": 0
-  },
-  {
-
-    "category": 5,
-    "subcategory": 1,
-    "productName": "Wind turbine 7",
-    "manufacturer": "ABB",
-    "country": "Finland",
-    "price": 533,
-    "description": "Powerporter 11.0 Energy Capacity: 19.6kWh",
-    "img": "../images/products/wind-turbine.jpg",
-    "discount": 0
-  },
-  {
-
-    "category": 5,
-    "subcategory": 1,
-    "productName": "Wind turbine 8",
-    "manufacturer": "ABB",
-    "country": "Finland",
-    "price": 1033,
-    "description": "Powerporter 11.0 Energy Capacity: 22.6kWh",
-    "img": "../images/products/wind-turbine.jpg",
-    "discount": 0
-  },
-  {
-
-    "category": 5,
-    "subcategory": 1,
-    "productName": "Wind turbine 9",
-    "manufacturer": "EcoTech",
-    "country": "Germany",
-    "price": 899,
-    "description": "Energy-efficient appliance suitable for refrigeration needs. EcoTech presents the Energy Storage Unit 2000 with a capacity of 23.5 kWh, ideal for powering eco-friendly refrigerators.",
-    "img": "../images/products/wind-turbine.jpg",
-    "discount": 0
-  },
-  {
-
-    "category": 5,
-    "subcategory": 1,
-    "productName": "Wind turbine 10",
-    "manufacturer": "GreenEnergy",
-    "country": "Sweden",
-    "price": 1299,
-    "description": "Upgrade your entertainment setup with this energy-efficient appliance. The PowerCell XR-500, manufactured by GreenEnergy, offers high-capacity energy storage of 25.8 kWh, perfect for powering modern televisions.",
-    "img": "../images/products/wind-turbine.jpg",
-    "discount": 0
-  },
-  {
-
-    "category": 5,
-    "subcategory": 1,
-    "productName": "Wind turbine 11",
-    "manufacturer": "SustainableTech",
-    "country": "United States",
-    "price": 1500,
-    "description": "SustainableTech introduces the EcoPower Pro 3000, an energy-efficient appliance designed for household needs. With a storage capacity of 28.4 kWh, it is suitable for powering energy-efficient refrigerators.",
-    "img": "../images/products/wind-turbine.jpg",
-    "discount": 0.5
-  },
-  {
-
-    "category": 6,
-    "subcategory": 1,
-    "productName": "Inverter 11",
-    "manufacturer": "RenewableCo",
-    "country": "Canada",
-    "price": 1099,
-    "description": "RenewableCo presents the RenewaCharge XE-1200, an energy-efficient solution for powering appliances like pumps. With a storage capacity of 26.5 kWh, it ensures reliable and eco-friendly pump operation.",
-    "img": "../images/products/inverter.jpg",
-    "discount": 0
-  },
-  {
-
-    "category": 6,
-    "subcategory": 1,
-    "productName": "Inverter 21",
-    "manufacturer": "EcoInnovate",
-    "country": "Australia",
-    "price": 1699,
-    "description": "Upgrade to the GreenPower Ultra 4000, an energy-efficient appliance designed for sustainable living. With a capacity of 30.2 kWh, it is suitable for powering energy-efficient refrigerators and other household appliances.",
-    "img": "../images/products/inverter.jpg",
-    "discount": 0
-  },
-  {
-
-    "category": 6,
-    "subcategory": 1,
-    "productName": "Inverter 31",
-    "manufacturer": "ABB",
-    "country": "Finland",
-    "price": 133,
-    "description": "Powerporter 11.0 Energy Capacity: 11.6kWh",
-    "img": "../images/products/inverter.jpg",
-    "discount": 0.3
-  },
-  {
-
-    "category": 6,
-    "subcategory": 1,
-    "productName": "Inverter 41",
-    "manufacturer": "ABB",
-    "country": "Finland",
-    "price": 233,
-    "description": "Powerporter 11.0 Energy Capacity: 13.6kWh",
-    "img": "../images/products/inverter.jpg",
-    "discount": 0
-  },
-  {
-
-    "category": 6,
-    "subcategory": 1,
-    "productName": "Inverter 51",
-    "manufacturer": "ABB",
-    "country": "Finland",
-    "price": 533,
-    "description": "Powerporter 11.0 Energy Capacity: 14.6kWh",
-    "img": "../images/products/inverter.jpg",
-    "discount": 0
-  },
-  {
-
-    "category": 6,
-    "subcategory": 1,
-    "productName": "Inverter 61",
-    "manufacturer": "ABB",
-    "country": "Finland",
-    "price": 433,
-    "description": "Powerporter 11.0 Energy Capacity: 16.6kWh",
-    "img": "../images/products/inverter.jpg",
-    "discount": 0.5
-  },
-  {
-
-    "category": 6,
-    "subcategory": 1,
-    "productName": "Inverter 71",
-    "manufacturer": "ABB",
-    "country": "Finland",
-    "price": 733,
-    "description": "Powerporter 11.0 Energy Capacity: 20.6kWh",
-    "img": "../images/products/inverter.jpg",
-    "discount": 0.1
-  },
-  {
-
-    "category": 6,
-    "subcategory": 1,
-    "productName": "Inverter 81",
-    "manufacturer": "ABB",
-    "country": "Finland",
-    "price": 733,
-    "description": "Powerporter 11.0 Energy Capacity: 19.6kWh",
-    "img": "../images/products/inverter.jpg",
-    "discount": 0
-  },
-  {
-
-    "category": 6,
-    "subcategory": 1,
-    "productName": "Inverter 91",
-    "manufacturer": "ABB",
-    "country": "Finland",
-    "price": 533,
-    "description": "Powerporter 11.0 Energy Capacity: 19.6kWh",
-    "img": "../images/products/inverter.jpg",
-    "discount": 0
-  },
-  {
-
-    "category": 6,
-    "subcategory": 1,
-    "productName": "Inverter 10",
-    "manufacturer": "ABB",
-    "country": "Finland",
-    "price": 1033,
-    "description": "Powerporter 11.0 Energy Capacity: 22.6kWh",
-    "img": "../images/products/inverter.jpg",
-    "discount": 0
-  },
-  {
-
-    "category": 6,
-    "subcategory": 1,
-    "productName": "Inverter 111",
-    "manufacturer": "EcoTech",
-    "country": "Germany",
-    "price": 899,
-    "description": "Energy-efficient appliance suitable for refrigeration needs. EcoTech presents the Energy Storage Unit 2000 with a capacity of 23.5 kWh, ideal for powering eco-friendly refrigerators.",
-    "img": "../images/products/inverter.jpg",
-    "discount": 0
-  },
-  {
-
-    "category": 6,
-    "subcategory": 1,
-    "productName": "Inverter 121",
-    "manufacturer": "GreenEnergy",
-    "country": "Sweden",
-    "price": 1299,
-    "description": "Upgrade your entertainment setup with this energy-efficient appliance. The PowerCell XR-500, manufactured by GreenEnergy, offers high-capacity energy storage of 25.8 kWh, perfect for powering modern televisions.",
-    "img": "../images/products/inverter.jpg",
-    "discount": 0
-  },
-  {
-
-    "category": 6,
-    "subcategory": 1,
-    "productName": "Inverter 131",
-    "manufacturer": "SustainableTech",
-    "country": "United States",
-    "price": 1499,
-    "description": "SustainableTech introduces the EcoPower Pro 3000, an energy-efficient appliance designed for household needs. With a storage capacity of 28.4 kWh, it is suitable for powering energy-efficient refrigerators.",
-    "img": "../images/products/inverter.jpg",
-    "discount": 0
-  },
-  {
-
-    "category": 6,
-    "subcategory": 1,
-    "productName": "Inverter 141",
-    "manufacturer": "RenewableCo",
-    "country": "Canada",
-    "price": 1099,
-    "description": "RenewableCo presents the RenewaCharge XE-1200, an energy-efficient solution for powering appliances like pumps. With a storage capacity of 26.5 kWh, it ensures reliable and eco-friendly pump operation.",
-    "img": "../images/products/inverter.jpg",
-    "discount": 0
-  },
-  {
-
-    "category": 6,
-    "subcategory": 1,
-    "productName": "Inverter 151",
-    "manufacturer": "EcoInnovate",
-    "country": "Australia",
-    "price": 1699,
-    "description": "Upgrade to the GreenPower Ultra 4000, an energy-efficient appliance designed for sustainable living. With a capacity of 30.2 kWh, it is suitable for powering energy-efficient refrigerators and other household appliances.",
-    "img": "../images/products/inverter.jpg",
+    "category": 1,
+    "subcategory": 3,
+    "productName": "Super charging 11",
+    "manufacturer": "Sunergy",
+    "country": "USA",
+    "price": 3500,
+    "description": "Premium solar panel with advanced photovoltaic technology.",
+    "img": "../images/products/super-charge.jpg",
     "discount": 0
   }
- ]
-
-
-
+  ]

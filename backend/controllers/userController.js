@@ -32,9 +32,11 @@ const loginUser = async (req, res) => {
     const accessToken = createToken(user._id);
     const refreshToken = await RefreshToken.createToken(user._id);
 
-    return res
-      .status(200)
-      .json({ user, accessToken: accessToken, refreshToken: refreshToken });
+    return res.status(200).json({
+      user,
+      accessToken: accessToken,
+      refreshToken: refreshToken,
+    });
   } catch (error) {
     return res.status(400).json({ message: error.message });
   }
@@ -126,6 +128,7 @@ const removeFromFavorites = async (req, res) => {
   }
 };
 
+
 const createUrl = async (req, res) => {
   const { email } = req.body;
 
@@ -202,4 +205,5 @@ module.exports = {
   removeFromFavorites,
   createUrl,
   recoverPassword,
+
 };

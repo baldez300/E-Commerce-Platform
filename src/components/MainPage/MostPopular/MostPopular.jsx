@@ -4,6 +4,8 @@ import MostPopularItem from "./MostPopularItem/MostPopularItem";
 import popular from "../../../models/popularCategories";
 
 const MostPopular = () => {
+
+  
   return (
     <div className="most-popular">
       

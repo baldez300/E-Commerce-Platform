@@ -17,7 +17,7 @@ let delCounter = 0;
 const cart = signal(JSON.parse(localStorage.getItem("cart")) || []);
 
 const useShoppingCart = () => {
-  const addToCart = (product) => {
+  const addToCart = (product, quantity) => {
     if (cartDropdownTimer) clearTimeout(cartDropdownTimer);
     if (cartAddMessageTimer) clearTimeout(cartAddMessageTimer);
     addCounter += 1;
@@ -31,7 +31,7 @@ const useShoppingCart = () => {
       cartDropdownActive.value = false;
     }, 2000);
 
-    product = { ...product, quantity: 1 };
+    product = { ...product, quantity: quantity || 1 };
     cart.value = [...cart.value, product];
     localStorage.setItem("cart", JSON.stringify(cart.value));
   };
@@ -78,9 +78,9 @@ const useShoppingCart = () => {
     return cart.value.find((p) => p._id === productId);
   };
 
-  const handleCartBtnClicked = (product) => {
+  const handleCartBtnClicked = (product, quantity) => {
     if (!currentUser.value) {
-      loginError.value = "Please register/login to add to favorites";
+      loginError.value = "Please register/login to add to cart.";
       setTimeout(() => {
         loginError.value = "";
       }, 5000);
@@ -93,7 +93,7 @@ const useShoppingCart = () => {
     if (found) {
       removeFromCart(product._id);
     } else {
-      addToCart(product);
+      addToCart(product, quantity);
     }
   };
 

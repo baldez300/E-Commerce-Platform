@@ -1,17 +1,27 @@
+import React, { useState } from "react";
 
 
-function FilterItem(item) {
-  const { id, img, description} = item;
+function FilterItem({item, handler}) {
+
+  const [isActive, setIsActive] = useState(false);
+ 
+  const buttonClassName = isActive ? "category-active" : "category";
+
+  const clickHandler = () => {
+    handler(item.subcategory)
+    setIsActive(!isActive);
+  }
+
 
   return (
-    <div className="category" key={id} id={`popular-${id}`}>
+    <button onClick={clickHandler} className={buttonClassName} key={item.id} id={`filter-${item.id}`}>
       <div className="image-container">
-        <img className="image" src={img} alt='Some description' />
+        <img className="image" src={item.img} alt='Some description' />
       </div>
       <div className="product-info">
-         {description}
+         {item.description}
       </div>
-    </div>
+    </button>
   );
 }
 
