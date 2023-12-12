@@ -5,8 +5,6 @@ import { signal} from "@preact/signals-react"
 
 import React, { useEffect, useState } from "react";
 
-const EnergyStorage = () => {
-
 const idList = signal([]);
 
 const EnergyStorage = () => {
