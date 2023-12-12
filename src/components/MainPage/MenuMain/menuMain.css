@@ -12,27 +12,26 @@
   width: 100%;
   /* background-color: #4b4a4a; */
   font-family: "Poppins-Regular", Helvetica;
-  margin-top: 8rem;
 }
 
 @media screen and (max-width: 1173px) {
 
   .menu-container {
-    margin-top: 10rem;
+    margin-top: 0;
   }
 }
 
 @media screen and (max-width: 800px) {
 
   .menu-container {
-    margin-top: 12rem;
+    margin-top: 0;
   }
 }
 
 @media screen and (max-width: 768px) {
 
   .menu-container {
-    margin-top: 17rem;
+    margin-top: 3rem;
   }
 }
 
