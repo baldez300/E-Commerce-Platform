@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import { signal } from "@preact/signals-react";
 import { useParams } from "react-router-dom";
 import Thumbnail from "../Tumbnails/Thumbnail";
@@ -12,34 +12,33 @@ export const searching = signal(false);
 
 function SearchPage() {
   const { query } = useParams();
-  const { searchForProducts } = useProducts();
-  const [data, setData] = useState([]);
-  
- 
+  const { searchForProducts, productsData } = useProducts();
 
   useEffect(() => {
     searching.value = true;
     searchError.value = "";
-    setData([]);
+    productsData.value = [];
     const fetchData = async () => {
       const result = await searchForProducts(query);
-      if (result) setData(result);
+      if (result) productsData.value = result;
       searching.value = false;
     };
 
     fetchData();
-  }, [query, searchForProducts]);
+  }, [query, searchForProducts, productsData]);
 
   return (
     <div className="category-page">
       <div className="most-popular-title">
-          {textForHeader.value && <h2>Seach results for: "{textForHeader.value}"</h2>}
-        </div>
+        {textForHeader.value && (
+          <h2>Seach results for: "{textForHeader.value}"</h2>
+        )}
+      </div>
       <div className="product-container">
         {searchError.value && <p className="error">{searchError.value}</p>}
         {!searching.value &&
-          data.length > 0 &&
-          data.map((product) => {
+          productsData.value.length > 0 &&
+          productsData.value.map((product) => {
             if (product.discount > 0)
               return (
                 <ThumbnailSale

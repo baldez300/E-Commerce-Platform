@@ -1,4 +1,3 @@
-const uuid = require("uuid");
 const ProductModel = require("../models/productModel");
 const { default: mongoose } = require("mongoose");
 

@@ -24,6 +24,7 @@ const cartItem = ({ _id, img, productName, description, price, removeFromCart, q
                 style={{ color: "red" }}
                 onClick={(e) => {
                   e.preventDefault();
+                  e.stopPropagation();
                   removeFromCart(_id);
                 }}
               />

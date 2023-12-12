@@ -1,3 +1,28 @@
+/**
+ * @swagger
+ * components:
+ *   schemas:
+ *     RecoverUrl:
+ *       type: object
+ *       required:
+ *         - email
+ *         - url
+ *       properties:
+ *         email:
+ *           type: string
+ *           description: The email address associated with the recovery URL.
+ *           example: "user@example.com"
+ *         url:
+ *           type: string
+ *           description: The recovery URL.
+ *           example: "http://example.com/recover/1234567890abcdef"
+ *         expiresAt:
+ *           type: string
+ *           format: date-time
+ *           description: The expiration date of the recovery URL.
+ *           example: "2022-01-01T00:00:00Z"
+ */
+
 const mongoose = require("mongoose");
 const crypto = require("crypto");
 
