@@ -1,3 +1,36 @@
+/**
+ * @swagger
+ * components:
+ *   schemas:
+ *     Order:
+ *       type: object
+ *       required:
+ *         - userId
+ *         - products
+ *       properties:
+ *         userId:
+ *           type: string
+ *           description: The ID of the user who placed the order.
+ *           example: "60d0fe4f5311236168a109ca"
+ *         delivered:
+ *           type: boolean
+ *           description: Whether the order has been delivered.
+ *           example: false
+ *         products:
+ *           type: array
+ *           items:
+ *             type: object
+ *             properties:
+ *               productId:
+ *                 type: string
+ *                 description: The ID of the product.
+ *                 example: "60d0fe4f5311236168a109ca"
+ *               quantity:
+ *                 type: integer
+ *                 description: The quantity of the product ordered.
+ *                 example: 1
+ */
+
 const mongoose = require("mongoose");
 
 const orderSchema = new mongoose.Schema([

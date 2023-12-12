@@ -1,3 +1,98 @@
+/**
+ * @swagger
+ * components:
+ *   schemas:
+ *     User:
+ *       type: object
+ *       required:
+ *         - email
+ *         - password
+ *         - firstName
+ *         - lastName
+ *         - phoneNumber
+ *         - address
+ *       properties:
+ *         email:
+ *           type: string
+ *           description: The email of the user.
+ *           example: "user@example.com"
+ *         password:
+ *           type: string
+ *           description: The password of the user.
+ *           example: "password"
+ *         firstName:
+ *           type: string
+ *           description: The first name of the user.
+ *           example: "John"
+ *         lastName:
+ *           type: string
+ *           description: The last name of the user.
+ *           example: "Doe"
+ *         phoneNumber:
+ *           type: string
+ *           description: The phone number of the user.
+ *           example: "1234567890"
+ *         address:
+ *           type: object
+ *           properties:
+ *             street:
+ *               type: string
+ *               description: The street of the user's address.
+ *               example: "Main St"
+ *             number:
+ *               type: string
+ *               description: The number of the user's address.
+ *               example: "123"
+ *             postalCode:
+ *               type: string
+ *               description: The postal code of the user's address.
+ *               example: "12345"
+ *             city:
+ *               type: string
+ *               description: The city of the user's address.
+ *               example: "City"
+ *             country:
+ *               type: string
+ *               description: The country of the user's address.
+ *               example: "Country"
+ *         role:
+ *           type: string
+ *           enum: ["user", "admin"]
+ *           description: The role of the user.
+ *           example: "user"
+ *         favorites:
+ *           type: array
+ *           items:
+ *             type: string
+ *           description: The favorites of the user.
+ *           example: []
+ *         shoppingCart:
+ *           type: array
+ *           items:
+ *             type: object
+ *             properties:
+ *               productId:
+ *                 type: string
+ *                 description: The product ID in the shopping cart.
+ *                 example: "1234567890abcdef"
+ *               quantity:
+ *                 type: integer
+ *                 description: The quantity of the product in the shopping cart.
+ *                 example: 1
+ *           description: The shopping cart of the user.
+ *           example: []
+ *         createdAt:
+ *           type: string
+ *           format: date-time
+ *           description: The date and time when the user was created.
+ *           example: "2022-01-01T00:00:00Z"
+ *         updatedAt:
+ *           type: string
+ *           format: date-time
+ *           description: The date and time when the user was last updated.
+ *           example: "2022-01-01T00:00:00Z"
+ */
+
 const mongoose = require("mongoose");
 const bcrypt = require("bcrypt");
 const Schema = mongoose.Schema;

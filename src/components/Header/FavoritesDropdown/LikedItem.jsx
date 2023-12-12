@@ -35,6 +35,7 @@ const LikedItem = ({
                 style={{ color: "red" }}
                 onClick={(e) => {
                   e.preventDefault();
+                  e.stopPropagation();
                   handleDeleteFavorite(_id);
                 }}
               />

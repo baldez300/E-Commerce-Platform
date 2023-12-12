@@ -1,3 +1,33 @@
+/**
+ * @swagger
+ * components:
+ *   schemas:
+ *     RefreshToken:
+ *       type: object
+ *       required:
+ *         - token
+ *         - user
+ *       properties:
+ *         token:
+ *           type: string
+ *           description: The refresh token.
+ *           example: "1234567890abcdef"
+ *         user:
+ *           type: string
+ *           description: The user associated with the refresh token.
+ *           example: "user@example.com"
+ *         createdAt:
+ *           type: string
+ *           format: date-time
+ *           description: The date and time when the refresh token was created.
+ *           example: "2022-01-01T00:00:00Z"
+ *         updatedAt:
+ *           type: string
+ *           format: date-time
+ *           description: The date and time when the refresh token was last updated.
+ *           example: "2022-01-01T00:00:00Z"
+ */
+
 const mongoose = require("mongoose");
 const jwt = require("jsonwebtoken");
 const Schema = mongoose.Schema;

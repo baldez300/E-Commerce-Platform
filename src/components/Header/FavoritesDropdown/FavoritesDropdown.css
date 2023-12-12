@@ -11,6 +11,8 @@
 }
 
 .likes-dropdown {
+  max-height: 80vh;
+  overflow: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
