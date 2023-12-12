@@ -1,11 +1,25 @@
 .App {
     width: 100vw;
-    margin: 0 auto;
+    margin: 6rem auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+
+@media (max-width: 1173px) {
+  .App {
+    width: 80vw;
+    margin: 8rem auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .App {
+    width: 80vw;
+    margin: 17rem auto;
+  }
+}
 
 @media (min-width: 800px) {
   .App {
