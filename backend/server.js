@@ -9,6 +9,7 @@ const cors = require("cors");
 const customMiddleware = require("./middleware/customMiddleware");
 const swagger_options = require("./utils/swaggerOptions");
 const connectDB = require("./config/db");
+const config = require("./config/config");
 
 // App
 const app = express();
@@ -37,3 +38,9 @@ app.use(customMiddleware.errorHandler);
 app.listen(port, () =>
   console.log(`Server is running on http://localhost:${port}`)
 );
+
+console.log("Database: ", config.MONGO_URI);
+console.log("NODE_ENV: ", config.NODE_ENV);
+console.log("PORT: ", config.PORT);
+
+module.exports = app;
