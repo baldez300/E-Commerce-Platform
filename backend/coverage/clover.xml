@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1702821156855" clover="3.2.0">
+  <project timestamp="1702821156855" name="All files">
+    <metrics statements="417" coveredstatements="208" conditionals="94" coveredconditionals="13" methods="46" coveredmethods="12" elements="557" coveredelements="233" complexity="0" loc="417" ncloc="417" packages="7" files="18" classes="18"/>
+    <package name="backend">
+      <metrics statements="31" coveredstatements="31" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="server.js" path="/Users/baldez/React_Web_Project/backend/server.js">
+        <metrics statements="31" coveredstatements="31" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="backend.config">
+      <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="config.js" path="/Users/baldez/React_Web_Project/backend/config/config.js">
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="2" methods="0" coveredmethods="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+      <file name="db.js" path="/Users/baldez/React_Web_Project/backend/config/db.js">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="backend.controllers">
+      <metrics statements="205" coveredstatements="47" conditionals="48" coveredconditionals="0" methods="24" coveredmethods="3"/>
+      <file name="orderController.js" path="/Users/baldez/React_Web_Project/backend/controllers/orderController.js">
+        <metrics statements="31" coveredstatements="6" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="33" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="49" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+      </file>
+      <file name="productController.js" path="/Users/baldez/React_Web_Project/backend/controllers/productController.js">
+        <metrics statements="84" coveredstatements="13" conditionals="22" coveredconditionals="0" methods="10" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="37" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="51" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="57" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="81" count="0" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="96" count="0" type="stmt"/>
+        <line num="100" count="0" type="stmt"/>
+        <line num="104" count="1" type="stmt"/>
+        <line num="105" count="0" type="stmt"/>
+        <line num="106" count="0" type="stmt"/>
+        <line num="107" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="108" count="0" type="stmt"/>
+        <line num="111" count="0" type="stmt"/>
+        <line num="116" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="117" count="0" type="stmt"/>
+        <line num="120" count="0" type="stmt"/>
+        <line num="124" count="0" type="stmt"/>
+        <line num="129" count="1" type="stmt"/>
+        <line num="130" count="0" type="stmt"/>
+        <line num="131" count="0" type="stmt"/>
+        <line num="133" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="134" count="0" type="stmt"/>
+        <line num="137" count="0" type="stmt"/>
+        <line num="139" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="140" count="0" type="stmt"/>
+        <line num="143" count="0" type="stmt"/>
+        <line num="147" count="0" type="stmt"/>
+        <line num="152" count="1" type="stmt"/>
+        <line num="153" count="0" type="stmt"/>
+        <line num="154" count="0" type="stmt"/>
+        <line num="155" count="0" type="stmt"/>
+        <line num="157" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="158" count="0" type="stmt"/>
+        <line num="161" count="0" type="stmt"/>
+        <line num="165" count="0" type="stmt"/>
+        <line num="170" count="1" type="stmt"/>
+        <line num="171" count="0" type="stmt"/>
+        <line num="172" count="0" type="stmt"/>
+        <line num="173" count="0" type="stmt"/>
+        <line num="178" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="179" count="0" type="stmt"/>
+        <line num="182" count="0" type="stmt"/>
+        <line num="187" count="0" type="stmt"/>
+        <line num="191" count="1" type="stmt"/>
+        <line num="192" count="0" type="stmt"/>
+        <line num="193" count="0" type="stmt"/>
+        <line num="194" count="0" type="stmt"/>
+        <line num="198" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="199" count="0" type="stmt"/>
+        <line num="202" count="0" type="stmt"/>
+        <line num="204" count="0" type="stmt"/>
+        <line num="208" count="1" type="stmt"/>
+      </file>
+      <file name="userController.js" path="/Users/baldez/React_Web_Project/backend/controllers/userController.js">
+        <metrics statements="90" coveredstatements="28" conditionals="22" coveredconditionals="0" methods="10" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="59" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="71" count="1" type="stmt"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="75" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="82" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="90" count="0" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="96" count="1" type="stmt"/>
+        <line num="97" count="0" type="stmt"/>
+        <line num="98" count="0" type="stmt"/>
+        <line num="100" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="106" count="0" type="stmt"/>
+        <line num="107" count="0" type="stmt"/>
+        <line num="109" count="0" type="stmt"/>
+        <line num="110" count="0" type="stmt"/>
+        <line num="113" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="114" count="0" type="stmt"/>
+        <line num="116" count="0" type="stmt"/>
+        <line num="119" count="0" type="stmt"/>
+        <line num="125" count="0" type="stmt"/>
+        <line num="127" count="0" type="stmt"/>
+        <line num="132" count="1" type="stmt"/>
+        <line num="133" count="0" type="stmt"/>
+        <line num="135" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="136" count="0" type="stmt"/>
+        <line num="139" count="0" type="stmt"/>
+        <line num="140" count="0" type="stmt"/>
+        <line num="142" count="0" type="stmt"/>
+        <line num="144" count="0" type="stmt"/>
+        <line num="150" count="0" type="stmt"/>
+        <line num="152" count="0" type="stmt"/>
+        <line num="156" count="1" type="stmt"/>
+        <line num="157" count="0" type="stmt"/>
+        <line num="158" count="0" type="stmt"/>
+        <line num="160" count="0" type="stmt"/>
+        <line num="161" count="0" type="stmt"/>
+        <line num="163" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="164" count="0" type="stmt"/>
+        <line num="168" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="169" count="0" type="stmt"/>
+        <line num="172" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="173" count="0" type="stmt"/>
+        <line num="176" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="177" count="0" type="stmt"/>
+        <line num="183" count="0" type="stmt"/>
+        <line num="185" count="0" type="stmt"/>
+        <line num="191" count="0" type="stmt"/>
+        <line num="193" count="0" type="stmt"/>
+        <line num="195" count="0" type="stmt"/>
+        <line num="199" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="backend.middleware">
+      <metrics statements="45" coveredstatements="29" conditionals="8" coveredconditionals="3" methods="7" coveredmethods="4"/>
+      <file name="customMiddleware.js" path="/Users/baldez/React_Web_Project/backend/middleware/customMiddleware.js">
+        <metrics statements="13" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+      </file>
+      <file name="jwtMiddleware.js" path="/Users/baldez/React_Web_Project/backend/middleware/jwtMiddleware.js">
+        <metrics statements="32" coveredstatements="20" conditionals="8" coveredconditionals="3" methods="4" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="36" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="44" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="52" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="backend.models">
+      <metrics statements="79" coveredstatements="47" conditionals="32" coveredconditionals="7" methods="12" coveredmethods="3"/>
+      <file name="orderModel.js" path="/Users/baldez/React_Web_Project/backend/models/orderModel.js">
+        <metrics statements="11" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="69" count="1" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="81" count="1" type="stmt"/>
+      </file>
+      <file name="productModel.js" path="/Users/baldez/React_Web_Project/backend/models/productModel.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="92" count="1" type="stmt"/>
+      </file>
+      <file name="recoverUrlModel.js" path="/Users/baldez/React_Web_Project/backend/models/recoverUrlModel.js">
+        <metrics statements="19" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="74" count="1" type="stmt"/>
+      </file>
+      <file name="refreshTokenModel.js" path="/Users/baldez/React_Web_Project/backend/models/refreshTokenModel.js">
+        <metrics statements="11" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+      </file>
+      <file name="userModel.js" path="/Users/baldez/React_Web_Project/backend/models/userModel.js">
+        <metrics statements="35" coveredstatements="20" conditionals="32" coveredconditionals="7" methods="3" coveredmethods="2"/>
+        <line num="96" count="1" type="stmt"/>
+        <line num="97" count="1" type="stmt"/>
+        <line num="98" count="1" type="stmt"/>
+        <line num="100" count="1" type="stmt"/>
+        <line num="171" count="1" type="stmt"/>
+        <line num="172" count="2" type="stmt"/>
+        <line num="173" count="2" type="stmt"/>
+        <line num="175" count="2" type="stmt"/>
+        <line num="177" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="178" count="2" type="stmt"/>
+        <line num="181" count="0" type="stmt"/>
+        <line num="183" count="0" type="stmt"/>
+        <line num="188" count="0" type="stmt"/>
+        <line num="191" count="1" type="stmt"/>
+        <line num="192" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="194" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="195" count="0" type="stmt"/>
+        <line num="198" count="1" type="stmt"/>
+        <line num="200" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="201" count="0" type="stmt"/>
+        <line num="204" count="1" type="stmt"/>
+        <line num="205" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="206" count="0" type="stmt"/>
+        <line num="209" count="1" type="stmt"/>
+        <line num="212" count="1" type="stmt"/>
+        <line num="213" count="0" type="stmt"/>
+        <line num="214" count="0" type="stmt"/>
+        <line num="217" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="218" count="0" type="stmt"/>
+        <line num="221" count="0" type="stmt"/>
+        <line num="233" count="0" type="stmt"/>
+        <line num="234" count="0" type="stmt"/>
+        <line num="240" count="0" type="stmt"/>
+        <line num="242" count="0" type="stmt"/>
+        <line num="246" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="backend.routes">
+      <metrics statements="37" coveredstatements="37" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="orders.js" path="/Users/baldez/React_Web_Project/backend/routes/orders.js">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="72" count="1" type="stmt"/>
+        <line num="102" count="1" type="stmt"/>
+        <line num="142" count="1" type="stmt"/>
+        <line num="144" count="1" type="stmt"/>
+      </file>
+      <file name="products.js" path="/Users/baldez/React_Web_Project/backend/routes/products.js">
+        <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="97" count="1" type="stmt"/>
+        <line num="133" count="1" type="stmt"/>
+        <line num="163" count="1" type="stmt"/>
+        <line num="197" count="1" type="stmt"/>
+        <line num="236" count="1" type="stmt"/>
+        <line num="269" count="1" type="stmt"/>
+        <line num="304" count="1" type="stmt"/>
+        <line num="345" count="1" type="stmt"/>
+        <line num="347" count="1" type="stmt"/>
+      </file>
+      <file name="user.js" path="/Users/baldez/React_Web_Project/backend/routes/user.js">
+        <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="99" count="1" type="stmt"/>
+        <line num="129" count="1" type="stmt"/>
+        <line num="155" count="1" type="stmt"/>
+        <line num="186" count="1" type="stmt"/>
+        <line num="217" count="1" type="stmt"/>
+        <line num="245" count="1" type="stmt"/>
+        <line num="271" count="1" type="stmt"/>
+        <line num="307" count="1" type="stmt"/>
+        <line num="338" count="1" type="stmt"/>
+        <line num="340" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="backend.utils">
+      <metrics statements="8" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="mailer.js" path="/Users/baldez/React_Web_Project/backend/utils/mailer.js">
+        <metrics statements="6" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+      </file>
+      <file name="swaggerOptions.js" path="/Users/baldez/React_Web_Project/backend/utils/swaggerOptions.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

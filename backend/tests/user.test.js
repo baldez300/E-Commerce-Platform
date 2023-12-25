@@ -10,7 +10,7 @@ describe("User API tests", () => {
     const res = await api
       .post("/api/user/register")
       .send({
-        email: "user27@example.com",
+        email: "user31@example.com",
         password: "password",
         firstName: "John",
         lastName: "Doe",
@@ -29,7 +29,7 @@ describe("User API tests", () => {
     const res = await api
       .post("/api/user/register")
       .send({
-        email: "user27@example.com",
+        email: "user31@example.com",
         password: "password",
       })
       .expect(400);
@@ -43,15 +43,15 @@ describe("User API tests", () => {
       })
       .expect(200);
     token = res.body.refreshToken;
-    //console.log(token);
+    console.log(token);
   });
-  test("User can get their own information with a valid token", async () => {
+  test("User can get his/her own information with a valid token", async () => {
     const res = await api
       .post("/api/user/token")
       .set("Authorization", `Bearer ${token}`)
       .expect(200);
     expect(res.body).toHaveProperty("savedUser._id");
-    console.log(res.body);
+    //console.log(res.body);
   });
 });
 
